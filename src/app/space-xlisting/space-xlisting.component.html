@@ -2,6 +2,8 @@
 	<h1>SpaceX Launch programe</h1>
 </header>
 
+<h2 style="text-align:center" *ngIf="!spaceData"> No data found !!</h2>
+
 <div class="side-wrapper">
 
 	<!--Filter-->
@@ -14,8 +16,9 @@
 		<app-space-xlaunch-card class="card" [spaceData]="spaceX" *ngFor="let spaceX of spaceData">
 		</app-space-xlaunch-card>
 	</div>
-
+	
 </div>
+
 
 <footer class="footer">
 	<h2>Developed By: <strong>Puneet Kumar</strong></h2>

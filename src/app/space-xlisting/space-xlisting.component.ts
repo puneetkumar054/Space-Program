@@ -37,7 +37,7 @@ export class SpaceXListingComponent implements OnInit {
     this.spaceService.getLisitng(this.filters)
       .subscribe(
         (response) => {
-          this.spaceData = response
+          this.spaceData = response.length != 0 ? response : null;
         },
         (error) => {
           console.log(error)
