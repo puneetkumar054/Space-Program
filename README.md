@@ -27,6 +27,10 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
 
+## Program Stacks
+    1. Node: 12.18.3
+    2. Angular CLI: 10.0.6
+
 ## How To Setup Space-Program
     1. Download (clone / download as zip) the repository using 
         i.>Run : clone git clone  https://github.com/puneetkumar054/Space-Program
