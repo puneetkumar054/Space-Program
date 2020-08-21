@@ -1,0 +1,19 @@
+<img [src]="spaceData.links.mission_patch_small" alt="spacex">
+<h3>{{spaceData.mission_name}}# {{spaceData.flight_number}}</h3>
+
+<div class="data-wrapper">
+	<h4>Mission Ids. </h4>
+	<p>{{spaceData.mission_id}}</p>
+</div>
+<div class="data-wrapper">
+	<h4>Launch Year: </h4>
+	<p>{{spaceData.launch_year}}</p>
+</div>
+<div class="data-wrapper">
+	<h4>Successful Launch: </h4>
+	<p>{{spaceData.launch_success}}</p>
+</div>
+<div class="data-wrapper">
+	<h4>Successful Landing: </h4>
+	<p>{{spaceData.rocket.first_stage.cores[0].land_success}}</p>
+</div>
