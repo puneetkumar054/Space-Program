@@ -33,7 +33,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
             OR
         ii.> download as zip by going on repository and extract the zip on system
 
-    2. Go into the directory by - Run: cd Space-Program.
+    2. Go into the directory by - Run: cd Space-Program 'OR' cd Space-Program-master.
 
     3.Install all the dependency by- Run: npm i 
 
