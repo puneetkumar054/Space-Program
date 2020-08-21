@@ -2,19 +2,19 @@
 	<h1>SpaceX Launch programe</h1>
 </header>
 
-<h2 style="text-align:center" *ngIf="!spaceData"> No data found !!</h2>
 
 <div class="side-wrapper">
-
+	
 	<!--Filter-->
 	<div class="filter-wrapper">
 		<app-filter (onFilterApplied)="appliedFilter($event)"></app-filter>
 	</div>
-
+	
 	<!-- cards -->
 	<div class="card-wrapper">
 		<app-space-xlaunch-card class="card" [spaceData]="spaceX" *ngFor="let spaceX of spaceData">
 		</app-space-xlaunch-card>
+		<h2 style="text-align:center" *ngIf="!spaceData"> Data not found !!</h2>
 	</div>
 	
 </div>
